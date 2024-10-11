@@ -38,10 +38,15 @@ function Items() {
     // let byn = 3.2149;
     // let rub = 92.4699;
 
-    const imgUSD = '../../../public/USD.png';
-    const imgEUR = '../../../public/EUR.png';
-    const imgBYN = '../../../public/BYN.png';
-    const imgRUB = '../../../public/RUB.png';
+    // const imgUSD = '../../../public/USD.png';
+    // const imgEUR = '../../../public/EUR.png';
+    // const imgBYN = '../../../public/BYN.png';
+    // const imgRUB = '../../../public/RUB.png';
+
+    const imgUSD = '../img/USD.png';
+    const imgEUR = '../img/EUR.png';
+    const imgBYN = '../img/BYN.png';
+    const imgRUB = '../img/RUB.png';
 
     const [selectValue, setSelectValue] = useState('');
 
