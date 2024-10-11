@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './Items.css';
 import Item from '../Item/Item';
+import imgUSD from '../../../public/USD.png';
+import imgEUR from '../../../public/EUR.png';
+import imgBYN from '../../../public/BYN.png';
+import imgRUB from '../../../public/RUB.png';
 
 function Items() {
 
@@ -42,11 +46,6 @@ function Items() {
     // const imgEUR = '../../../public/EUR.png';
     // const imgBYN = '../../../public/BYN.png';
     // const imgRUB = '../../../public/RUB.png';
-
-    const imgUSD = '../img/USD.png';
-    const imgEUR = '../img/EUR.png';
-    const imgBYN = '../img/BYN.png';
-    const imgRUB = '../img/RUB.png';
 
     const [selectValue, setSelectValue] = useState('');
 
