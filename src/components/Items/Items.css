@@ -39,6 +39,7 @@
     font-weight: 600;
     font-size: 16px;
     transition: all 0.3s ease;
+    padding-left: 2px;
 }
 
 .input-curency:hover {

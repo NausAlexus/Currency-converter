@@ -105,7 +105,7 @@ function Items() {
                         <option value="byn">BYN</option>
                         <option value="rub">RUB</option>
                     </select>
-                    <input onChange={handleInputValue} className='input-curency' type="number" defaultValue={valueUser} />
+                    <input onChange={handleInputValue} className='input-curency' type="number" placeholder='Enter amount'/>
                 </li>
                 <li><Item imgURL={imgUSD} nameCurency={'USD'} Curency={usdUpdate}/></li>
                 <li><Item imgURL={imgEUR} nameCurency={'EUR'} Curency={eurUpdate}/></li>
