@@ -1,0 +1,33 @@
+.item-container {
+    width: 280px;
+    height: 40px;
+    background: rgb(210, 210, 210);
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name-curency {
+    font-weight: 600;
+    cursor: default;
+    margin-left: 10px;
+}
+
+.item-container img {
+    width: 30px;
+    height: 30px;
+}
+
+.item-container div {
+    display: flex;
+    align-items: center;
+}
+
+
+.item-text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
